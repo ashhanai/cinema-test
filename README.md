@@ -1,6 +1,6 @@
 # Cinema-test
-Playing with transitions and custom animations + first touch on ReFlow
+Playing with transitions and custom animations + first touch on ReSwift
 
-ReFlow - https://github.com/ReSwift/ReSwift
+ReSwift - https://github.com/ReSwift/ReSwift
 
 Animation - https://dribbble.com/shots/2455519-Book-movie-tickets-3D
