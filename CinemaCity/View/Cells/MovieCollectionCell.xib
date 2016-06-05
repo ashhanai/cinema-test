@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieCollectionCell" id="gTV-IL-0wX" customClass="MovieCollectionCell" customModule="CinemaCity" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="195"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="187" height="195"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kbq-nq-vci">
+                        <rect key="frame" x="0.0" y="0.0" width="187" height="150"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE MARTIAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="psd-Yz-7oc">
+                        <rect key="frame" x="44" y="164" width="99" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.32156862745098036" green="0.32156862745098036" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="psd-Yz-7oc" secondAttribute="bottom" constant="14" id="8ms-hD-8Wu"/>
+                <constraint firstItem="kbq-nq-vci" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9GF-CC-kuU"/>
+                <constraint firstItem="psd-Yz-7oc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="QpL-UL-Xaw"/>
+                <constraint firstItem="kbq-nq-vci" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cGa-gh-WLW"/>
+                <constraint firstItem="psd-Yz-7oc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="e13-dR-BwA"/>
+                <constraint firstAttribute="trailing" secondItem="kbq-nq-vci" secondAttribute="trailing" id="ef8-ZA-fsO"/>
+                <constraint firstItem="psd-Yz-7oc" firstAttribute="top" secondItem="kbq-nq-vci" secondAttribute="bottom" constant="14" id="l5y-Td-lRx"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="psd-Yz-7oc" secondAttribute="trailing" constant="10" id="vnb-La-4Vm"/>
+            </constraints>
+            <size key="customSize" width="187" height="196"/>
+            <connections>
+                <outlet property="movieNameLabel" destination="psd-Yz-7oc" id="O9m-KX-g4N"/>
+                <outlet property="moviePicView" destination="kbq-nq-vci" id="UeE-hK-odr"/>
+            </connections>
+            <point key="canvasLocation" x="222.5" y="319"/>
+        </collectionViewCell>
+    </objects>
+</document>

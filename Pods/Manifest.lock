@@ -1,0 +1,25 @@
+PODS:
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - NVActivityIndicatorView (2.3)
+  - ReSwift (0.2.3)
+  - ReSwiftRouter (0.2.3):
+    - ReSwift (~> 0.2.3)
+  - SnapKit (0.15.0)
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - NVActivityIndicatorView
+  - ReSwift
+  - ReSwiftRouter
+  - SnapKit (~> 0.15.0)
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  NVActivityIndicatorView: c7ef25ef527ab5e51b00322cb1ddd58681bcf2a3
+  ReSwift: 0912cea01daca9b8a2471bb7c3953773a112ea0b
+  ReSwiftRouter: abcc4a155b4d5a0e8ccd697a58bf803ada68ab66
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+
+COCOAPODS: 0.39.0
